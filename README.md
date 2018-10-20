@@ -1,24 +1,15 @@
-# README
+# Sample Rails app to learn Docker-compose
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Instructions to have your server running in a docker container
 
-Things you may want to cover:
+`docker-compose build`
 
-* Ruby version
+`docker-compose run web rake db:create`
 
-* System dependencies
+`docker-compose run web rake db:migrate`
 
-* Configuration
+`docker-compose up`
 
-* Database creation
+`docker-compose down`
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
